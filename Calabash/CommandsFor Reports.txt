@@ -1,0 +1,8 @@
+commands to get ouput
+
+
+-f junit --out test-reports/calabashReports ----> only for XML
+test-reports\report.xml 
+--format html --out reports.html       ---->for both XML and HTML Report -Priority one.
+
+-f junit --out test-reports-Exact commands

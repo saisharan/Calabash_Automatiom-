@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" name="EULA Acceptance" skipped="0" tests="1" time="65.244812">
+<testcase classname="EULA Acceptance" name="Estimate the Monthly Payment EULA" time="65.244812">
+  <failure message="failed Estimate the Monthly Payment EULA" type="failed">
+    <![CDATA[Scenario: Estimate the Monthly Payment EULA
+
+And take picture
+When I press the "Accept" button
+And take picture
+Then I long press "City, State or ZIP"
+And take picture
+Then I set a zip code "46012" in the City, State or ZIP field
+And take picture
+Then I press the enter button
+And take picture
+Then I press the "Search Listings" button
+And take picture
+Then I wait for dialog to close
+And take picture
+Then I press view with id "handle"
+Then I wait
+And take picture
+Then I long press "Tools"
+And take picture
+Then I wait
+Then I press view with id "tools_find_mortgage_banker_btn"
+And take picture
+Then I wait
+
+Message:
+]]>
+    <![CDATA[Step unsuccessful: Could not find view with id: 'handle' (RuntimeError)
+C:/Ruby193/lib/ruby/1.9.1/timeout.rb:68:in `timeout'
+features\my_first.feature:24:in `Then I press view with id "handle"']]>
+  </failure>
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

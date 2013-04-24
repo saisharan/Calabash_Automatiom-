@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="EULA Acceptance" skipped="0" tests="1" time="161.979037">
+<testcase classname="EULA Acceptance" name="Estimate the Monthly Payment EULA" time="161.979037">
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>
